@@ -1,3 +1,23 @@
-.navbar {
-  background-color: ;
+body,
+html {
+  width: 100%;
+  height: 100%;
+}
+
+.intro-header {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #404040;
+  background: url(../img/intro-back.jpg) no-repeat center center;
+}
+
+.intro-msg {
+  position: relative;
+  padding-top: 20%;
+  padding botton: 20%;
+}
+
+.intro-divider {
+  width: 480px;
 }
