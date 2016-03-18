@@ -21,8 +21,8 @@
         <div class="collapse navbar-collapse">
           <ul class="nav navbar-nav navbar-right">
             <li class="active"><a href="#intro">Home</a></li>
-            <li><a href="#about">About Me</a></li>
             <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About Me</a></li>
           </ul>
         </div>
         <!--/.collapse-->
@@ -40,14 +40,12 @@
             <div class="intro-msg">
               <h1>Web Programming Portfolio</h1>
               <h3>Kevin Deganos</h3>
-              <hr class= "intro-divider">
-              <ul class= "intro-buttons">
-                <li><a href="#" class="btn btn-default btn-lg"></li>
+              <hr class="intro-divider">
+              <!--<ul class="intro-buttons">
+                <li><a href="#" class="btn btn-default btn-lg"></li>-->
             </div>
-          <
+          </div>
         </div>
-
-
       </div>
       <!--/.container-->
     </div>
@@ -55,13 +53,41 @@
 
     <!--end intro-->
 
-    <!--about me-->
-    <a name="about"></a>
-    <!--end about me-->
-
     <!--projects-->
     <a name="projects"></a>
-    <!--end projects-->
+    <div id="portfolio-carousel" class="carousel slide jumbotron">
+      <div class="container">
+        <ol class="carousel-indicators">
+          <li data-target="portfolio-carousel" data-slide-to="0" class="active"></li>
+          <li data-target="portfolio-carousel" data-slide-to="1"></li>
+        </ol>
+        <div class="carousel-inner">
+          <div class="item active">
+          </div>
+        </div>
+      </div>
+      <a class="left carousel-control" href="#portfolio-carousel" data-slide="prev">
+        <span class="icon-prev"></span>
+      </a>
+      <a class="right carousel-control" href="#portfolio-carousel" data-slide="next">
+        <span class="icon-next"></span>
+      </a>
+      <!--/.carousel-inner-->
+    </div>
+        <!--end projects-->
+
+    <!--about me-->
+    <a name="about"></a>
+    <div class="about-me">
+      <div class="container">
+        <img src="img/silhouette.png" alt="Kevin Deganos" class="portrait">
+        <p>Lorem ipsum dolor sit amet, ut labitur temporibus mediocritatem sed, ei nibh noster tacimates usu. In vis libris persius voluptaria, sea et unum utroque ponderum. Solum consectetuer ad nam, eam causae audire lucilius in. Ei duo hinc iusto everti, ius no modo consul legendos, ad usu elit delectus. Et mei maiorum accusamus, tantas delectus accusamus et vel. Nihil feugait corpora ut nec, timeam facilisi sententiae pro ne, no pro discere adversarium.
+        </p>
+        <p>Tation feugait eu vel, percipitur vituperatoribus cu vel. Nam dicta ignota deserunt ea, sit ut partem dolorum laoreet. Eu doctus iisque meliore eam, melius equidem appareat cum ne. Duo eu nostrum noluisse, ea duo feugiat ullamcorper. Omnes veniam oporteat pro ei.
+        </p>
+      </div>
+    </div>
+    <!--end about me-->
 
     <script src="http://code.jquery.com/jquery.js"></script>
     <script src="js/bootstrap.min.js"></script>

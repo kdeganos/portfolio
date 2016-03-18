@@ -21,3 +21,18 @@ html {
 .intro-divider {
   width: 480px;
 }
+
+.portfolio-carousel {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  text-align: center;
+}
+
+.about-me p{
+
+}
+.portrait {
+  width: 200px;
+  float: left;
+  padding: 20px;
+}
