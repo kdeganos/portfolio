@@ -4,32 +4,50 @@ html {
   height: 100%;
 }
 
+/* Intro
+================================= */
 .intro-header {
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
-  color: #404040;
-  background: url(../img/intro-back.jpg) no-repeat center center;
+  /*color: #404040;*/
+  background: url(../img/intro-back.jpg) no-repeat center;
 }
-
 .intro-msg {
   position: relative;
   padding-top: 20%;
   padding botton: 20%;
 }
-
 .intro-divider {
   width: 480px;
 }
 
+/* Carousel
+================================= */
 .portfolio-carousel {
   padding-top: 50px;
   padding-bottom: 50px;
   text-align: center;
 }
+.projects-title {
+  text-align: center;
+}
+.heading-spacer {
+    width: 140px;
+    border-top: 3px solid black;
+    padding: 10px;
+  }
+.carousel-indicators .active{
+  background-color: #474747;
+}
+.carousel-indicators li{
+  border-color: #989898;
+}
 
-.about-me p{
-
+/* About Me
+================================= */
+.about-me h2{
+  margin-bottom: 25px;
 }
 .portrait {
   width: 200px;
