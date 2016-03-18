@@ -16,7 +16,7 @@ html {
 .intro-msg {
   position: relative;
   padding-top: 20%;
-  padding botton: 20%;
+  padding bottom: 20%;
 }
 .intro-divider {
   width: 480px;
@@ -51,11 +51,20 @@ html {
 
 /* About Me
 ================================= */
-.about-me h2{
-  margin-bottom: 25px;
+.about h2{
+  margin-bottom: 20px;
+}
+.name-kevin{
+    font-size: 20pt;
 }
 .portrait {
   width: 200px;
   float: left;
-  padding: 20px;
+  padding-right: 20px;
+  padding-bottom: 10px;
+}
+.about-divider {
+  width: 140px;
+  border-top: 1px solid #989898;
+  padding: 10 px;
 }
